@@ -1,0 +1,8 @@
+# Q7. Write a program that takes a string from the user and prints
+# the number of spaces in the string.
+string = input("Enter a string : ")
+space = 0
+for ch in string:
+    if ch == " ":
+        space += 1
+print(space)
